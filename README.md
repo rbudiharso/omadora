@@ -12,7 +12,7 @@ Turn a fresh Fedora installation into a fully-configured, beautiful, and modern 
 Read more at [omarchy.org](https://omarchy.org).
 
 ## Getting Started
-`eval "$(wget -qO- https://raw.githubusercontent.com/rbudiharso/omarchy/refs/heads/master/boot.sh)"`
+`eval "$(wget -qO- https://raw.githubusercontent.com/rbudiharso/omadora/refs/heads/master/boot.sh)"`
 
 ## License
 

@@ -1,3 +1,6 @@
+# enable flathub
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
 flatpak install flathub com.spotify.Client
 flatpak install flathub md.obsidian.Obsidian
 flatpak install flathub com.bitwarden.desktop
