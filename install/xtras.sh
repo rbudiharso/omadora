@@ -1,10 +1,10 @@
 # enable flathub
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
-flatpak install flathub com.spotify.Client
-flatpak install flathub md.obsidian.Obsidian
-flatpak install flathub com.bitwarden.desktop
-flatpak install flathub app.freelens.Freelens
+flatpak install -y flathub com.spotify.Client
+flatpak install -y flathub md.obsidian.Obsidian
+flatpak install -y flathub com.bitwarden.desktop
+flatpak install -y flathub app.freelens.Freelens
 
 sudo dnf install -y \
   stow \
