@@ -1,3 +1,6 @@
+# Update everything
+sudo dnf update -y
+
 # Need gum to query for input
 sudo dnf install -y gum
 

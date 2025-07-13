@@ -14,7 +14,7 @@ command -v git >/dev/null 2>&1 || sudo dnf install -y git
 
 echo -e "\nCloning Omarchy..."
 rm -rf ~/.local/share/omarchy/
-git clone https://github.com/rbudiharso/omarchy.git ~/.local/share/omarchy >/dev/null
+git clone https://github.com/rbudiharso/omadora.git ~/.local/share/omarchy >/dev/null
 
 # Use custom branch if instructed
 if [[ -n "$OMARCHY_REF" ]]; then
