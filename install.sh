@@ -5,7 +5,7 @@
 trap 'echo "Omadora installation failed! You can retry by running: source ~/.local/share/omadora/install.sh"' ERR
 
 # Install everything
-for f in ~/.local/share/omarchy/install/*.sh; do
+for f in ~/.local/share/omadora/install/*.sh; do
   echo -e "\nRunning installer: $f"
   source "$f"
 done

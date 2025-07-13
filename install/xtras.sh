@@ -17,4 +17,4 @@ stow home-manager
 nix run home-manager/master -- init --switch
 
 # Copy over Omarchy applications
-source ~/.local/share/omarchy/bin/omarchy-sync-applications || true
+source ~/.local/share/omadora/bin/omarchy-sync-applications || true
