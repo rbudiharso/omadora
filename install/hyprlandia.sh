@@ -1,5 +1,10 @@
+# Install hyprshot
+$ git clone https://github.com/Gustash/hyprshot.git Hyprshot
+$ ln -s $(pwd)/Hyprshot/hyprshot $HOME/.local/bin
+$ chmod +x Hyprshot/hyprshot
+
 sudo dnf install -y \
-  hyprland hyprshot hyprpicker hyprlock hypridle polkit-gnome hyprland-qtutils \
+  hyprland hyprshot hyprlock hypridle mate-polkit hyprland-qtutils \
   wofi waybar mako swaybg \
   xdg-desktop-portal-hyprland xdg-desktop-portal-gtk
 

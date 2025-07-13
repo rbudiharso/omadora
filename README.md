@@ -12,7 +12,13 @@ Turn a fresh Fedora installation into a fully-configured, beautiful, and modern 
 Read more at [omarchy.org](https://omarchy.org).
 
 ## Getting Started
-`eval "$(wget -qO- https://raw.githubusercontent.com/rbudiharso/omadora/refs/heads/master/boot.sh)"`
+```
+
+# script to install hyprland related stuff, select nescesary packages when asked
+sh <(curl -L https://raw.githubusercontent.com/JaKooLit/Fedora-Hyprland/main/auto-install.sh)
+eval "$(wget -qO- https://raw.githubusercontent.com/rbudiharso/omadora/refs/heads/master/boot.sh)"
+
+```
 
 ## License
 

@@ -1,5 +1,5 @@
 sudo dnf install -y \
-  wget curl unzip inetutils \
+  wget curl unzip g++ \
   fd fzf ripgrep zoxide bat \
   wl-clipboard fastfetch btop \
   man tldr less whois plocate bash-completion \
