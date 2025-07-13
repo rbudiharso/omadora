@@ -1,4 +1,4 @@
-yay -S --noconfirm --needed \
+sudo dnf install -y \
   hyprland hyprshot hyprpicker hyprlock hypridle polkit-gnome hyprland-qtutils \
   wofi waybar mako swaybg \
   xdg-desktop-portal-hyprland xdg-desktop-portal-gtk

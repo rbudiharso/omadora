@@ -1,6 +1,5 @@
-# Install iwd explicitly if it wasn't included in archinstall
-# This can happen if archinstall used ethernet
+# Install iwd explicitly if it wasn't installed
 if ! command -v iwd &>/dev/null; then
-  yay -S --noconfirm --needed iwd
-  sudo systemctl enable --now iwd.service
+  sudo dnf swap -y wpa_supplicant iwd
+  sudo systemctl restart NetworkManager
 fi

@@ -1,5 +1,5 @@
 # Need gum to query for input
-yay -S --noconfirm --needed gum
+sudo dnf install -y gum
 
 # Configure identification
 echo -e "\nEnter identification for git and autocomplete..."

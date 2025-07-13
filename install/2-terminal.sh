@@ -1,4 +1,4 @@
-yay -S --noconfirm --needed \
+sudo dnf install -y \
   wget curl unzip inetutils impala \
   fd eza fzf ripgrep zoxide bat \
   wl-clipboard fastfetch btop \
